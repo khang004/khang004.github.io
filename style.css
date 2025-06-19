@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.box {
+    width: 100%;
+    height: 100px;
+    background: rgb(159, 177, 200);
+    display: block;
+}
+
+span {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+}
+
+.fa-user {
+    color: black;
+    display: block;
+}
+
+.fa-paperclip {
+    color: black;
+}
+
+.fa-envelope {
+    color: #f1f1f1;
+}
+
+.fa-square-facebook {
+    color: blue;
+}
+
+.fa-heart {
+    color: red;
+}
+
+a {
+    color: mediumspringgreen;
+    display: block;
+}
+
+.tieude {
+    text-align: center;
+    margin-top: 20px;
+    color: aqua;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+    transition: opacity 0.1s ease-in;
+    display: block;
+}
+
+.box2 {
+    width: 70%;
+    height: 300px;
+    margin-left: 70px;
+    background-color: rgb(193, 247, 251);
+    border-radius: 0 0 40% 40%;
+    display: block;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgb(236, 80, 80);
+    text-align: center;
+    font-size: 30px;
+    display: block;
+}
+
+.dancing-script-uniquifier {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgb(95, 176, 96);
+    text-align: center;
+    display: block;
+}
