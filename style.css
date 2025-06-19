@@ -6,6 +6,7 @@
 body{
     width: 100vw;
     overflow-x: hidden;
+    display: block;
 }
 .box {
     width: 100%;
@@ -22,7 +23,7 @@ span {
 
 .fa-user {
     color: black;
-    display: block;
+    
 }
 
 .fa-paperclip {
@@ -43,29 +44,27 @@ span {
 
 a {
     color: mediumspringgreen;
-    display: block;
 }
 
 .tieude {
     text-align: center;
     margin-top: 20px;
     color: aqua;
-    display: block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .title {
     transition: opacity 0.1s ease-in;
-    display: block;
+   
 }
 
 .box2 {
     width: 70%;
     height: 300px;
     margin-left: 70px;
-    background-color: rgb(193, 247, 251);
+    background-color: rgb(126, 181, 185);
     border-radius: 0 0 40% 40%;
-    display: block;
+
 }
 
 .dancing-script {
@@ -76,7 +75,7 @@ a {
     color: rgb(236, 80, 80);
     text-align: center;
     font-size: 30px;
-    display: block;
+    
 }
 
 .dancing-script-uniquifier {
@@ -86,5 +85,9 @@ a {
     font-style: normal;
     color: rgb(95, 176, 96);
     text-align: center;
-    display: block;
+}
+p{
+    font-size: 20px;
+    color: rgb(247, 13, 231);
+
 }
