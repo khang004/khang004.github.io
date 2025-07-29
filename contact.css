@@ -76,10 +76,11 @@ body{
 .contact-left .reset-btn{
     display: flex;
     align-items: center;
-    padding: 20px 50px;
-    font-size: 20px;
+    padding: 15px 20px;
+    font-size: 16px;
     gap: 10px;
     cursor: pointer;
+
 }
 
 @media (max-width: 768px) {
