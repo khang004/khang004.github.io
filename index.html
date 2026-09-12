@@ -1,43 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <!-- link -->
-    <link rel="stylesheet" href="stytle.css">
+    <title>Minh Khang | Profile & Portfolio</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Background Ambient Glows -->
+    <div class="bg-ambient">
+        <div class="glow-circle-1"></div>
+        <div class="glow-circle-2"></div>
+    </div>
+
+    <!-- Header Navigation -->
     <header class="header">
-        <a href="#" class="color"><i class="fa-solid fa-user" style="color: rgb(11, 237, 3);"></i> Introduce</a>
+        <a href="index.html" class="brand-logo">
+            <div class="brand-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <span>Minh Khang</span>
+            <span class="brand-badge">IT Dev</span>
+        </a>
         <nav class="navbar">
-            <a href="#" class="hold"><i class="fa-solid fa-house" style="color: rgb(195, 195, 220);"></i> Home</a>
-            <a href="contact.html" target="_blank"><i class="fa-solid fa-address-card" style="color: pink;"></i> Contact me</a>
+            <a href="index.html" class="nav-link active">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="contact.html" class="nav-link cta-nav">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Contact Me</span>
+            </a>
         </nav>
     </header>
-    <section class="write">
-        <div class="write-test">
-            <h1>Hi, I'm Minh Khang</h1>
-            <h3>Profile is Me</h3>
-            <p>I am an IT university student, and like many others who are still learning, my code is often full of bugs. Sometimes it feels frustrating to see errors pop up again and again, and it can be disheartening when things don't work the way I expect them to. But I've learned that this is all part of the journey. Every bug, every failed build, and every crash is a valuable lesson. I choose not to give up.
-Instead, I see each challenge as an opportunity to grow. I spend time reading documentation, asking questions, and experimenting with different solutions. I might not get it right the first time—or even the fifth—but I never stop learning.</p>
+
+    <!-- Hero Section -->
+    <main class="hero">
+        <div class="hero-content">
+            <div class="welcome-badge">
+                <i class="fa-solid fa-hand-peace"></i>
+                <span>Chào mừng bạn đến với portfolio của tôi!</span>
+            </div>
+
+            <h1 class="hero-title">
+                Xin chào, tôi là <br>
+                <span class="name-highlight">Minh Khang</span>
+            </h1>
+
+            <h3 class="hero-subtitle">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>IT Student & Tech Enthusiast</span>
+            </h3>
+
+            <p class="hero-description">
+                Tôi là một sinh viên ngành Công nghệ Thông tin. Trên hành trình làm quen với lập trình, những dòng code của tôi đôi khi vẫn còn nhiều bug và lỗi phát sinh. Tuy nhiên, tôi tin rằng mỗi lỗi sai là một bài học quý giá, giúp tôi rèn luyện tính kiên trì, khả năng đọc tài liệu và tư duy giải quyết vấn đề. Dù không phải lúc nào cũng thành công ngay từ lần đầu, tôi sẽ không ngừng nỗ lực để trở thành một lập trình viên vững vàng.
+            </p>
+
+            <!-- Skill Tags -->
+            <div class="skills-container">
+                <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+                <span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+                <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+                <span class="skill-tag"><i class="fa-solid fa-bug-slash"></i> Problem Solving</span>
+            </div>
+
+            <!-- Call to Action Buttons -->
+            <div class="cta-group">
+                <a href="contact.html" class="btn btn-primary">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>Liên hệ với tôi</span>
+                </a>
+                <a href="https://github.com/khang004" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Xem GitHub</span>
+                </a>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-bar">
+                <span class="social-label">Kết nối cùng tôi:</span>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61576945591808" target="_blank" rel="noopener noreferrer" class="social-btn facebook" title="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="mailto:contact@example.com" class="social-btn gmail" title="Gửi Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/khang004" target="_blank" rel="noopener noreferrer" class="social-btn github" title="GitHub Profile">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="mxh-sri">
-            <a href="https://www.facebook.com/profile.php?id=61576945591808"><i class="fa-brands fa-facebook-f fa-2xs"></i></a>
-            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://github.com/khang004"><i class="fa-brands fa-github"></i></a>
+
+        <!-- Hero Media / Avatar Showcase -->
+        <div class="hero-media">
+            <div class="avatar-wrapper">
+                <div class="avatar-ring-outer"></div>
+                <div class="avatar-ring-inner"></div>
+                
+                <div class="avatar-card">
+                    <img src="img/anh.png" alt="Minh Khang Avatar" class="avatar-img">
+                </div>
+
+                <!-- Floating Badges -->
+                <div class="floating-badge badge-1">
+                    <div class="badge-icon-pill">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <span>Luôn học hỏi điều mới</span>
+                </div>
+
+                <div class="floating-badge badge-2">
+                    <div class="badge-icon-pill">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <span>Đam mê Lập trình</span>
+                </div>
+            </div>
         </div>
-        <div class="img">
-            <img src="img/anh.png" alt="">
-        </div>
-    </section>
-    <audio controls autoplay loop>
+    </main>
+
+    <!-- Hidden Audio Element -->
+    <audio id="bgAudio" loop preload="auto">
         <source src="media/audio.mp3" type="audio/mp3">
     </audio>
 
+    <!-- Interactive Floating Audio Player Widget -->
+    <aside class="audio-player-widget">
+        <button id="audioToggleBtn" class="audio-toggle-btn" aria-label="Bật/Tắt nhạc nền" title="Bật/Tắt nhạc nền">
+            <i class="fa-solid fa-play" id="audioIcon"></i>
+        </button>
+        <div class="audio-info">
+            <span class="audio-title">Background Music</span>
+            <span class="audio-status" id="audioStatus">Click để phát</span>
+        </div>
+        <div class="equalizer-waves" id="equalizerWaves">
+            <span class="eq-bar"></span>
+            <span class="eq-bar"></span>
+            <span class="eq-bar"></span>
+            <span class="eq-bar"></span>
+        </div>
+    </aside>
+
+    <!-- Interactive Scripts -->
+    <script>
+        const bgAudio = document.getElementById('bgAudio');
+        const audioToggleBtn = document.getElementById('audioToggleBtn');
+        const audioIcon = document.getElementById('audioIcon');
+        const audioStatus = document.getElementById('audioStatus');
+        const equalizerWaves = document.getElementById('equalizerWaves');
+
+        let isPlaying = false;
+
+        audioToggleBtn.addEventListener('click', () => {
+            if (isPlaying) {
+                bgAudio.pause();
+                audioIcon.classList.remove('fa-pause');
+                audioIcon.classList.add('fa-play');
+                audioStatus.textContent = 'Đã tạm dừng';
+                equalizerWaves.classList.remove('playing');
+                isPlaying = false;
+            } else {
+                bgAudio.play().then(() => {
+                    audioIcon.classList.remove('fa-play');
+                    audioIcon.classList.add('fa-pause');
+                    audioStatus.textContent = 'Đang phát...';
+                    equalizerWaves.classList.add('playing');
+                    isPlaying = true;
+                }).catch(err => {
+                    console.warn('Playback failed:', err);
+                });
+            }
+        });
     </script>
 </body>
 
